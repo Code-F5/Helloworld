@@ -1,0 +1,16 @@
+Class Helloworld
+{
+Public void display()
+  {
+    System.out.println("Hello World");
+    return;
+  }
+}
+Class Worldmain
+{
+Public static void main(String[] args)
+  {
+    Helloworld HW=New Helloworld();
+    HW.display();
+  }
+}
